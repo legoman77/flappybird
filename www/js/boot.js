@@ -9,6 +9,8 @@ Flappy.Boot = function () {};
 Flappy.Boot.prototype = {
 
   init: function () {
+    console.log("%c~~ Flappy Bird Game Thing~~~\n",
+              "color:#ff0000")
   },
 
   preload: function () {
